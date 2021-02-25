@@ -294,6 +294,7 @@ covid19_animation <-
  
 
   animate(covid19_animation, nframes = 200, duration = 20)
+  #I worked with Lisa on this and she told me to do 20 rather than 30 
   
 anim_save("covid19.gif")
 ```
